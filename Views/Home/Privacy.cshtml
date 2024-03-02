@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Class For Today";
+}
+
+<h1 style="color: white;">@ViewData["Title"]</h1>
+
+
+<style>
+    body {
+        background-color: #000000 !important;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        color: white; /* Set the text color for the table headers */
+    }
+
+    th, td {
+        border: 1px solid;
+        padding: 8px;
+        text-align: center;
+    }
+
+    th {
+        /* You can add styles specific to th if needed */
+    }
+
+    tr:hover {
+        background-color: #C69749;
+        cursor: pointer;
+    }
+
+    tbody td {
+        color: white; /* Set the text color for the table body cells */
+    }
+</style>
+
+<table>
+    <thead>
+        <tr>
+            <th>Subject Title</th>
+            <th>Teacher</th>
+            <th>Unit</th>
+            <th>Online Synchronous (Day & Time)</th>
+            
+            <th>Face-to-face (Day & Time, Room Number)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>IT Elective 3(Full Stack)</td>
+            <td>Prof Alamo</td>
+            <td>3</td>
+            <td>THU | 05:00-07:00 PM</td>
+            <td>SAT | 01:00-04:00 PM, Room 101</td>
+        </tr>
+
+    </tbody>
+</table>
